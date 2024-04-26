@@ -8,9 +8,10 @@ The project utilizes React as the frontend framework and NestJS for the backend.
 
 There are two methods for setting up the project:
 
+First of all clone this repository and run `git submodule init` and then `git submodule update`.
+
 1. **Using Docker:**
 
-   - Clone this repository and ensure Docker is installed.
    - Run `docker-compose up`. Once the build is complete, navigate to `localhost:3000/feed/en/featured/2024/03/31` for the backend and `localhost:4173` for the frontend.
 
 2. **Manual Setup:**
