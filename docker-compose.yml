@@ -1,0 +1,18 @@
+services:
+  frontend:
+    build: ./front
+    ports:
+      - '4173:4173'
+    volumes:
+      - ./front:/app
+    environment:
+      - NODE_ENV=development
+
+  backend:
+    build: ./back
+    ports:
+      - '3000:3000'
+    volumes:
+      - ./back:/app
+    environment:
+      - NODE_ENV=development
